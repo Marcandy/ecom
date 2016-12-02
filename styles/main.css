@@ -1,7 +1,7 @@
 .top-section {
   width: 100%;
   height: 100vh;
-  background: url('../img/mp-hero-04.jpg') no-repeat center;
+  background: url('../img/mp-hero-02.jpg') no-repeat center;
   background-size: cover;
   /*max-height: 611px;*/
   opacity: 1;
@@ -34,4 +34,16 @@
   color: white;
   text-transform: uppercase;
   font-size: .9rem;
+}
+
+.logo-bottom:hover{
+  color: lightskyblue;
+}
+
+/*                 -----------------main------------------         */
+
+.main-content {
+  width: 100%;
+  height: 299px;
+
 }

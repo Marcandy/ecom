@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app='ecom' lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./styles/main.css">
   <title>Document</title>
 </head>
-<body>
+<body ng-controller='mainCtrl'>
 
 <main>
   <section class="top-section">
@@ -113,8 +113,28 @@
     </div>
   </section>
 
+  <section class="main-content">
+    <div class="grid">
+      {{test}}
+    </div>
+
+    <div class="box1">
+
+    </div>
+  </section>
+
 
 </main>
 
+                                            <!-- main-scripts cdn -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js" charset="utf-8"></script>
+
+
+                                            <!-- files Paths -->
+<script src="./app.js"></script>
+<script src="./mainCtrl.js"></script>
+<script src="./mainServ.js"></script>
 </body>
 </html>
