@@ -1,10 +1,11 @@
 .top-section {
   width: 100%;
   height: 100vh;
-  background: url('../img/hero.jpg') no-repeat center;
+  background: url('../img/tm2.png') no-repeat center;
   background-size: cover;
   /*max-height: 611px;*/
-  opacity: 1;
+  opacity: 0.85;
+  background-color: #4F0180;
   position: relative;
   z-index: 1;
   display: flex;
@@ -81,6 +82,7 @@
 .middle-section {
     width: 100%;
     margin-bottom: 50px;
+
 }
 
 .items {
@@ -96,7 +98,7 @@
     max-width: 100%;
     height: auto;
     padding: 10px;
-
+    border: solid #212121;
 }
 
 .bottom-section {
@@ -168,7 +170,7 @@
 .footer {
     width: 100%;
     height: 100vh;
-    background-color: #000;
+    background-color: #4F0180;
     text-transform: uppercase;
 }
 
