@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Marcandy/market-proj/issues"
   },
-  "homepage": "https://github.com/Marcandy/market-proj#readme"
+  "homepage": "https://github.com/Marcandy/market-proj#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
 }
