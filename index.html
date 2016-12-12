@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html ng-app='ecom' lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/main.css">
-<!--     vies styles            -->
-<link rel="stylesheet" href="./views/jumbo/jumbo.css">
-<link rel="stylesheet" href="./views/home/home.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!--     vies styles            -->
+    <link rel="stylesheet" href="./views/jumbo/jumbo.css">
+    <link rel="stylesheet" href="./views/home/home.css">
+    <title>Document</title>
 </head>
+
 <body ng-controller='mainCtrl'>
-  <header>
-  <button class="hamburger">&#9776;</button>
-  <button class="cross">&#735;</button>
-</header>
-
-<div class="menu">
-  <ul>
-    <a href="#"><li>LINK ONE</li></a>
-    <a href="#"><li>LINK TWO</li></a>
-    <a href="#"><li>LINK THREE</li></a>
-    <a href="#"><li>LINK FOUR</li></a>
-    <a href="#"><li>LINK FIVE</li></a>
-  </ul>
-</div>
-
-<ui-view></ui-view>
 
 
+    <section class="ham-box">
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#">
+                    <li>Headphones</li>
+                </a>
+            </ul>
+        </div>
+    </section>
 
-                    <!-- main-scripts cdn -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.js" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js" charset="utf-8"></script>
-
-<script
-  src="https://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous"></script>
+    <ui-view></ui-view>
 
 
-                                            <!-- files Paths -->
-<script src="./app.js"></script>
-<script src="./mainCtrl.js"></script>
-<script src="./mainServ.js"></script>
 
-<script src="./views/jumbo/jumboCtrl.js"></script>
-<script src="./views/home/homeCtrl.js"></script>
+    <!-- main-scripts cdn -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js" charset="utf-8"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+
+    <!-- files Paths -->
+    <script src="./app.js"></script>
+    <script src="./mainCtrl.js"></script>
+    <script src="./mainServ.js"></script>
+
+    <script src="./views/jumbo/jumboCtrl.js"></script>
+    <script src="./views/home/homeCtrl.js"></script>
 </body>
+
 </html>

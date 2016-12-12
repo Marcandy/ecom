@@ -5,14 +5,25 @@
 	height:100vh;
 
 }*/
-header{
-	width:100%;
+/*.ham-head{
+	width:5%;
 	background:#1d1f20;
 	height:60px;
 	line-height:60px;
+
+}*/
+.ham-box {
+  right: 0;
+  width: 200px;
+  height: 61px;
+  position: fixed;
+  z-index: 9999999999;
 }
 .hamburger{
-  background:none;
+/*width:5%;*/
+  height:60px;
+	line-height:60px;
+  background:#2B2B2B;
   position:absolute;
   top:0;
   right:0;
@@ -24,10 +35,11 @@ header{
   font-weight:bold;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  /*z-index:10000000000000;*/
 }
 .cross{
-  background:none;
+  height:60px;
+  background:#2B2B2B;
   position:absolute;
   top:0px;
   right:0;
@@ -39,17 +51,20 @@ header{
   font-weight:bold;
   cursor:pointer;
   outline:none;
-  z-index:10000000000000;
+  /*z-index:10000000000000;*/
 }
 .menu {
-    background-image: url('https://hd.unsplash.com/photo-1436262513933-a0b06755c784');
-    z-index: 1000000;
-    font-weight: bold;
-    font-size: 0.8em;
-    width: 100%;
-    background: #131313;
-    position: absolute;
-    text-align: center;
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  right: 0;
+  background: #2B2B2B;
+  position: absolute;
+  text-align: center;
+  z-index: 1000000;
+  background-image: url('https://hd.unsplash.com/photo-1436262513933-a0b06755c784');
+
 }
 
 .menu ul {
@@ -62,14 +77,14 @@ header{
 .menu li {
     display: block;
     padding: 15px 0 15px 0;
-    border-bottom: #1d1f20 1px solid;
+    border-bottom: #2B2B2B 1px solid;
 }
 
 .menu li:hover {
     display: block;
-    background: #181818;
+    background: #2B2B2B;
     padding: 15px 0 15px 0;
-    border-bottom: #1d1f20 1px solid;
+    border-bottom: #2B2B2B 1px solid;
 }
 
 .menu ul li a {
